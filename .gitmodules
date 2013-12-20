@@ -1,3 +1,3 @@
 [submodule "githubwidget"]
 	path = githubwidget
-	url = git@github.com:l33tsource/githubwidget.git
+	url = https://github.com/l33tsource/githubwidget.git

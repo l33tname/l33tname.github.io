@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="l33tsource.github.io : l33tcode" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>l33tsource</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/l33tsource">View on GitHub</a>
+
+          <h1 id="project_title">l33tsource</h1>
+          <h2 id="project_tagline">We do code ... sometimes</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Recent Projects:</h3>
+        <div id="githubwidget"></div>
+        <div id="blog"></div>
+        <div id="l33tsourceGithubPage"></div>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/githubwidget/js/githubwidget.js"></script>
+    <script type="text/javascript">
+      $('#githubwidget').githubwidget({ user: 'l33tsource', name: 'githubwidget' });
+      $('#blog').githubwidget({ user: 'l33tsource', name: 'blog' });
+      $('#l33tsourceGithubPage').githubwidget({ user: 'l33tsource', name: 'l33tsource.github.io' });
+    </script>
+
+  </body>
+</html>
