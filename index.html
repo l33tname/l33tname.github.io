@@ -15,10 +15,34 @@
         margin-bottom: 0px;
         width: 100%;
       }
+
+      table.githubwidgetTable th, table.githubwidgetTable td
+      {
+        padding: 6px;
+      }
+
       div.githubwidget {
         margin-bottom: 10px;
+        font-size: 60%;
       }
-      
+      div.githubwidget > p.githubwidgetHeader
+      {
+        font-size: 18px !important;
+      }
+      div.repoDiv
+      {
+        float: left;
+        width: 33%;
+      }
+      div.repoDiv > div
+      {
+        margin: 6px;
+      }
+      div.clearfix
+      {
+        float: none;
+        clear: both;
+      }
     </style>
 
     <title>l33tsource</title>
@@ -40,10 +64,11 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Recent Projects:</h3>
-        <div id="githubwidget"></div>
-        <div id="blog"></div>
-        <div id="l33tsourceGithubPage"></div>
+        <!--<h3>Recent Projects:</h3>-->
+        <div class="repoDiv" id="githubwidget"></div>
+        <div class="repoDiv" id="blog"></div>
+        <div class="repoDiv" id="l33tsourceGithubPage"></div>
+        <div class="clearfix"></div>
       </section>
     </div>
 
